@@ -1,0 +1,437 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* Nav-Bar */
+navbar{
+    background-color: white;
+}
+.nav-link{
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+}
+.nav-link:hover{
+    color: white;
+    background-color: black;
+}
+.nav-brand{
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.logo-img {
+    width: 50px;
+    height: auto;
+}
+
+
+                                                                /* Main Section */
+.main{
+    /*background: url('./main/Wiki4.jpg')no-repeat;*/
+    background-size: cover;
+    width: 100%;
+    height: 95vh;
+}
+.main h3{
+    font-size: 4.4rem;
+    font-weight: 600;
+}
+.main h6{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    line-height: 1;
+    border-bottom: 3px solid rgb(233, 20, 109);
+    width: 40%;
+}
+.main .bt1{
+    height: 55px;
+    width: 138px;
+    background-color: rgb(233, 20, 109);
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.main .bt1:hover{
+    background-color: rgb(233, 20, 109);
+    transition: 0.5s;
+}
+
+.main .bt2{
+    height: 55px;
+    width: 138px;
+    background-color: transparent;
+    color: rgb(233, 20, 109);
+    outline: none;
+    border: 1px solid rgb(233, 20, 109);
+    font-weight: bold;
+    border-radius: 5px;
+}
+.main .bt2:hover{
+    background-color: rgb(233, 20, 109);
+    transition: 0.5s;
+    color: white;
+}
+
+/* Social Icons */
+.social-icon:hover {
+    color: #48ff00; /* Change to desired color */
+    transition: color 0.3s ease; /* Smooth transition */
+
+    transform: scale(1.2); /* Scale factor */
+    transition: transform 0.3s ease; /* Smooth transition */
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    transition: box-shadow 0.3s ease; /* Smooth transition */
+
+    transform: rotate(15deg); /* Rotate angle */
+    transition: transform 0.3s ease; /* Smooth transition */
+  }
+  .btn-large {
+    font-size: 22px; /* Adjust the font size as needed */
+    padding: 2px 14px; /* Adjust padding for larger size */
+  }
+
+
+
+                                                                /* About Section */  
+
+.image-container {
+  position: relative;
+  overflow: hidden;
+}
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s, box-shadow 1.8s;
+}
+.image-container:hover img {
+  transform: scale(1.1); /* Increase image size on hover */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Shadow effect on hover */
+}
+
+
+
+.about img{
+    -webkit-box-shadow: 6px 4px 41px -24px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 4px 41px -24px rgba(0,0,0,0.75);
+    box-shadow: 6px 4px 41px -24px rgba(0,0,0,0.75);
+}
+h1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+/* Progress */
+.progress{
+    background-color: rgb(223,219,219);
+    justify-content: flex-start;
+    border-radius: 5px;
+    align-items: center;
+    position: relative;
+    display: flex;
+    height: 25px;
+    width: 100%;
+
+
+    -webkit-box-shadow: inset 23px 40px 97px -159px rgba(0,0,0,0.75);
+    -moz-box-shadow:    inset 23px 40px 97px -159px rgba(0,0,0,0.75);
+    box-shadow:         inset 23px 40px 97px -159px rgba(0,0,0,0.75);
+}
+/* Progress Value-1 */
+.pro-value1{
+    animation: load1 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0px;
+}
+.progress p{
+    color: white;
+    padding: 12px;
+}
+/* Progress Value-2 */
+.pro-value2{
+    animation: load2 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0px;
+}
+/* Progress Value-3 */
+.pro-value3{
+    animation: load3 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0px;
+}
+/* Progress Value-4 */
+.pro-value4{
+    animation: load4 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0px;
+}
+/* Progress Value-5 */
+.pro-value5{
+    animation: load5 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0px;
+}
+/* Progress Value-6 */
+.pro-value6{
+    animation: load6 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0px;
+}
+/* Progress Value-7 */
+.pro-value7{
+    animation: load7 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0px;
+}
+
+
+@keyframes load1 {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes load2 {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 75%;
+    }
+}
+@keyframes load3 {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 50%;
+    }
+}
+@keyframes load4 {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes load5 {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 65%;
+    }
+}
+@keyframes load6 {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 40%;
+    }
+}
+@keyframes load7 {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 50%;
+    }
+}
+
+
+
+
+.btn1{
+    height: 40px;
+    width: 145px;
+    outline: none;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+}
+.bt1:hover{
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    transition: 0.5s;
+}
+
+.btn2{
+    height: 40px;
+    width: 145px;
+    outline: none;
+    border: 1px solid black;
+    background-color: transparent;
+    color: black;
+    border-radius: 4px;
+}
+.btn2:hover{
+    background-color: black;
+    color: white;
+    border: none;
+    transition: 0.5s;
+}
+
+
+.card{
+    border: none;
+    outline: none;
+
+    -webkit-box-shadow: -8px 6px 89px -65px rgba(0,0,0,0.75);
+    -moz-box-shadow:    -8px 6px 89px -65px rgba(0,0,0,0.75);
+    box-shadow:         -8px 6px 89px -65px rgba(0,0,0,0.75);
+}
+.card p{
+    color: gray;
+}
+.circle{
+    height: 70px;
+    width: 70px;
+    background-color: rgb(228, 220, 220);
+    color: black;
+    padding: 12px;
+    font-size: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.card:hover .circle{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+
+                                                                /* Portfolio Section */  
+.control ul li{
+    list-style: none;
+    background-color: black;
+    padding: 5px 15px;
+    color: white;
+    display: inline-block;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+.item{
+    position: relative;
+}
+.item:hover{
+    -webkit-box-shadow: -18px 3px 109px -65px rgba(0,0,0,0.75);
+    -moz-box-shadow:    -18px 3px 109px -65px rgba(0,0,0,0.75);
+    box-shadow:         -18px 3px 109px -65px rgba(0,0,0,0.75);
+    transition: 0.5s;
+}
+.item span{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    font-size: 40px;
+    color: black;
+    cursor: pointer;
+    opacity: 0;
+}
+.item:hover span{
+    opacity: 1;
+    transition: 0.5s;
+}
+.item::before{
+    content: "";
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(238, 235, 230, 0.644);
+    opacity: 0;
+    position: absolute;
+}
+.item:hover::before
+{
+    opacity: 1;
+    transition: 0.3s;
+}
+.circle:hover{
+    background-color: black;
+    transition: 0.4s;
+    color: white;
+}
+
+.portfolio .btn3{
+    background-color: black;
+    color: white;
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 140px;
+    border-radius: 4px;
+}
+.btn4:hover{
+    background: white;
+    color: black;
+    transition: 0.4s;
+    border: 1px solid black;
+}
+
+
+.img-fluid {
+    width: 400px;
+    height: 300px;
+}
+
+
+
+                                                                /* Contact Section */
+#myTextarea {
+  width: 100%; /* Adjust the width as needed */
+  height: 200px; /* Adjust the height as needed */
+}                                                           
+.contact .btn3{
+    background-color: black;
+    color: white;
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 140px;
+    border-radius: 4px;
+}
+.btn3:hover{
+    background: white;
+    color: black;
+    transition: 0.4s;
+    border: 1px solid black;
+}
+
+                                                                /* Footer Section */  
+footer{
+    background-color: rgb(58,52,52);
+    color: lightgray;
+}
